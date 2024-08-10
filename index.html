@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature Of Soikat Dev</title>
+
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .signature-container {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px; 
+            overflow: hidden; 
+            background-color: rgb(52, 73, 94);
+            border: 1px solid #3e2723;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin: 0 auto;
+            position: relative;
+            padding: 20px;
+        }
+
+        .signature-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .signature-table td {
+            vertical-align: top;
+        }
+
+        .profile-pic {
+            border: 3px solid rgb(252, 255, 255);
+            border-radius: 50%; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 100px; 
+            height: 100px;
+        }
+
+        .name {
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px; 
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        .contact-info {
+            font-family: 'Roboto', 'Arial', sans-serif;
+            font-size: 14px;
+            color: rgb(244, 246, 247);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-info a {
+            color: rgb(244, 246, 247);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+            color: #f0b27a;
+        }
+
+        .contact-info span {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 3px;
+            line-height: 1.4;
+        }
+
+        .contact-info i {
+            margin-right: 8px;
+            color: #3498db;
+            padding-top: 2px;
+        }
+
+        .address-info {
+            flex: 1;
+            word-wrap: break-word;
+        }
+
+        .social-icons {
+            padding-bottom: 30px;
+            padding-left: 25px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            margin-right: 5px; 
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: rgb(33, 97, 140);
+            width: 24px; 
+            height: 24px;
+            text-align: center;
+            font-size: 14px; 
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-icons a:hover {
+            background-color: rgb(41, 128, 185);
+            transform: scale(1.0);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .social-icons i {
+            vertical-align: middle;
+            line-height: 24px; 
+        }
+
+        .signature-container::before, .signature-container::after {
+            content: '';
+            position: absolute;
+            width: 60px; 
+            height: 60px;
+            background: rgb(86, 101, 115);
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        .signature-container::before {
+            top: -10px; 
+            left: -10px;
+        }
+
+        .signature-container::after {
+            bottom: -10px; 
+            right: -10px;
+        }
+
+        @media (max-width: 767px) { 
+            .profile-pic {
+                width: 80px;
+                height: 80px;
+            }
+
+            .name {
+                font-size: 18px;
+            }
+
+            .social-icons a {
+                width: 20px;
+                height: 20px;
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 991px) { 
+            .profile-pic {
+                width: 90px;
+                height: 90px;
+            }
+
+            .name {
+                font-size: 20px;
+            }
+
+            .social-icons a {
+                width: 24px;
+                height: 24px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signature-container">
+        <table class="signature-table" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td style="padding: 0;">
+                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+                            <tbody>
+                                <tr>
+                                    <td width="120" style="padding-left: 10px; padding-top: 20px;">
+                                        <img class="profile-pic" height="100" width="100" alt="profile picture" border="0" src="./img/profile-pic.png">
+                                    </td>
+                                    <td style="padding-left: 20px;">
+                                        <p class="name">Soikat Dev</p>
+                                        <p class="contact-info">
+                                            <span><i class="fa-solid fa-phone"></i><a href="tel:+8801682024792">+8801682024792</a></span>
+                                            <span><i class="fa-solid fa-envelope"></i><a href="mailto:Soikat.pciu.cse19@gmail.com">Soikat.pciu.cse19@gmail.com</a></span>
+                                            <span><i class="fa-solid fa-map-marker-alt"></i><span class="address-info">S.M Bhaban, Road No-1, Uttara Housing Society, Quaish Road, Oxygen, Chattogram</span></span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="social-icons">
+                                            <a href="https://www.facebook.com/saikat.dev.77/" target="_blank" rel="nofollow">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/soikat-dev/" target="_blank" rel="nofollow">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                            <a href="http://Wa.me/+8801682024792" target="_blank" rel="nofollow">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
